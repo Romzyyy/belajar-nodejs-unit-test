@@ -5,7 +5,7 @@
   "main": "./src/index.js",
   "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -21,5 +21,8 @@
   "bugs": {
     "url": "https://github.com/Romzyyy/belajar-nodejs-unit-test/issues"
   },
-  "homepage": "https://github.com/Romzyyy/belajar-nodejs-unit-test#readme"
+  "homepage": "https://github.com/Romzyyy/belajar-nodejs-unit-test#readme",
+  "devDependencies": {
+    "jest": "^29.2.2"
+  }
 }
